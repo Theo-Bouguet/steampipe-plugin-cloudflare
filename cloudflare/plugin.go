@@ -39,6 +39,7 @@ func Plugin(ctx context.Context) *plugin.Plugin {
 			"cloudflare_logpush_job":           tableCloudflareLogpushJob(ctx),
 			"cloudflare_notification_policy":   tableCloudflareNotificationPolicy(ctx),
 			"cloudflare_page_rule":             tableCloudflarePageRule(ctx),
+			"cloudflare_subscriptions":			tableCloudflareSubscriptions(ctx),
 			"cloudflare_r2_bucket":             tableCloudflareR2Bucket(ctx),
 			"cloudflare_r2_object":             tableCloudflareR2Object(ctx),
 			"cloudflare_r2_object_data":        tableCloudflareR2ObjectData(ctx),
